@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{listt["title"]}}</title>
+  <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    {% extends "base.html" %}
+    {% block content %}
+    <h4>Фамилия: {{listt["surname"]}}</h4>
+    <h4>Имя: {{listt["name"]}}</h4>
+    <h4>Образование: {{listt["education"]}}</h4>
+    <h4>Проффессия: {{listt["profession"]}}</h4>
+    <h4>Пол: {{listt["sex"]}}</h4>
+    <h4>Мотивация: {{listt["motivation"]}}</h4>
+    <h4>Готовы остаться на Марсе? {{listt["ready"]}}</h4>
+    {% endblock %}
+
+
+</body>
+</html>
