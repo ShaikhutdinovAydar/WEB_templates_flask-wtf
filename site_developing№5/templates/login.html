@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Авторизация</title>
+  <link rel="stylesheet" href="../static/css/style1.css">
+</head>
+<body>
+    {% extends "base.html" %}
+
+    {% block content %}
+    <div class="bg-img" ></div>
+    <h1 style="display:inline-block">Аварийный доступ</h1>
+    <form action="" method="post" novalidate>
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.username.label }}<br>
+            {{ form.username(class="form-control") }}<br>
+            {% for error in form.username.errors %}
+        <div class="alert alert-danger" role="alert">
+            {{ error }}
+        </div>
+        {% endfor %}
+        </p>
+        <p>
+            {{ form.password.label }}<br>
+            {{ form.password(class="form-control", type="password") }}<br>
+            {% for error in form.password.errors %}
+        <div class="alert alert-danger" role="alert">
+            {{ error }}
+        </div>
+        {% endfor %}
+        </p>
+
+
+
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.username_kap.label }}<br>
+            {{ form.username_kap(class="form-control") }}<br>
+            {% for error in form.username_kap.errors %}
+        <div class="alert alert-danger" role="alert">
+            {{ error }}
+        </div>
+        {% endfor %}
+        </p>
+        <p>
+            {{ form.password_kap.label }}<br>
+            {{ form.password_kap(class="form-control", type="password") }}<br>
+            {% for error in form.password_kap.errors %}
+        <div class="alert alert-danger" role="alert">
+            {{ error }}
+        </div>
+        {% endfor %}
+        </p>
+
+        <p>{{ form.submit(type="submit", class="btn btn-primary") }}</p>
+    </form>
+    {% endblock %}
+
+</body>
+</html>

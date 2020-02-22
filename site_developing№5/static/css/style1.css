@@ -1,0 +1,16 @@
+h4 {
+    color: red;
+    padding-left: 20px;
+}
+span{
+    color: grey;
+    font-weight: 300;
+    font-size: 22px;
+}
+.bg-img {
+    background-image: url(../img/MARS-2-7.png);
+    display:inline-block;
+    width: 150px;
+    height: 50px;
+    background-repeat: no-repeat;
+}
