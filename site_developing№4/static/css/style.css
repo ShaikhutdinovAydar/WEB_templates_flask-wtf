@@ -2,3 +2,8 @@ h4 {
     color: red;
     padding-left: 20px;
 }
+span{
+    color: grey;
+    font-weight: 300;
+    font-size: 22px;
+}
