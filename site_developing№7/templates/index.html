@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1 style="margin-left: 50px;">Оформление каюты</h1>
+    <table>
+    <tr><th>Цвет стен</th><th>Эмблема</th></tr>
+    <tr><td style="height: 500px; width: 200px; background-color: rgb({{color}})"></td><td style="height: 500px; width: 200px"><img src="{{src}}"></td></tr>
+    </table>
+
+{% endblock %}
