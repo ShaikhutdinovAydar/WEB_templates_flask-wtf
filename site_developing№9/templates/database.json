@@ -1,0 +1,29 @@
+{"crew-members":
+  [
+    {
+      "image_src": "crew-member_1.jpg",
+      "name": "Ридли Скотт",
+      "professions": "капитан корабля,врач,дантист"
+    },
+    {
+      "image_src": "crew-member_2.jpg",
+      "name": "Энди Уир",
+      "professions": "Специалист по кастюмам,астранавт"
+    },
+    {
+      "image_src": "crew-member_3.jpg",
+      "name": "Марк Уотни",
+      "professions": "компьютерный инжинер,главный оператор"
+    },
+    {
+      "image_src": "crew-member_4.jpg",
+      "name": "Венката Капур",
+      "professions": "зам капитана,механик"
+    },
+    {
+      "image_src": "crew-member_5.png",
+      "name": "Тедди Сандерс",
+      "professions": "главный инжинер,психолог"
+    }
+  ]
+}
